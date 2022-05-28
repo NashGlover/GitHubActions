@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "Message = ${{ github.event.commits[0].message }}"
-          echo "Action = ${{ github.event.pull_request.action }}"
+          echo "Action = ${{ github.event.action }}"
